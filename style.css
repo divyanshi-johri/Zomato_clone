@@ -85,9 +85,16 @@ div {
         background-image: linear-gradient(to right, #ff512f 0%, #dd2476 51%, #ff512f 100%);
         z-index: -3;
     }
-    .food__list__view__more {
-        background: none;
-    }
+   .food__list__view__more {
+        margin-top: 2rem;
+        cursor: pointer;
+      }
+      .food__list__view__more:hover {  
+        background: #fff;
+        color: #dd2476;
+        margin: 2rem 10rem;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+      }
     .restaurant_list_container {
         display: flex;
         justify-content: space-between;
@@ -155,6 +162,16 @@ div {
     }
     .food_menu_card_list {
         margin-top: 2rem;
+    }
+      .food__list__view__more {
+      margin-top: 4rem;
+      cursor: pointer;
+    }
+    .food__list__view__more:hover {
+      background: #fff;
+      color: #dd2476;
+      margin: 4rem 20rem;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
     }
     .text-x1 {
         font-size: 3rem;
