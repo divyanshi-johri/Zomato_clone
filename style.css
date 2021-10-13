@@ -220,12 +220,11 @@ div {
     display: block;
 }
 
-.button_primary:hover {
-    background-position: right center;
-    color: rgb(203, 224, 224);
+.button__primary:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
     text-decoration: none;
-    ;
-}
+  }
 
 .hero_image_container {
     position: relative;
@@ -294,8 +293,9 @@ div {
 }
 
 .food_list_container {
-    position: relative;
-    margin: 5rem 0;
+   
+    margin: 3rem ;
+    text-align:center;
 }
 
 .text-x1 {
