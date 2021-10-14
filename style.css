@@ -8,7 +8,7 @@ body {
     font-family: "merriweather", sans-serif;
     background-color: #ebf2ff;
     overflow-x: hidden;
-    transition: 0.5s;
+    
 }
 
 ul {
@@ -359,8 +359,8 @@ div {
 .restaurant3 {
     border-radius: 4px;
     margin: 0 5px;
-    width: 200px;
-    height: 170px;
+    width: 180px;
+    height: 200px;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
@@ -368,8 +368,8 @@ div {
 .restaurant4 {
     border-radius: 4px;
     margin: 0 5px;
-    width: 240px;
-    height: 210px;
+    width: 180px;
+    height: 230px;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
